@@ -392,3 +392,6 @@ main { overflow-x: clip; }
   .marquee__track .marquee__list:nth-child(2) { display: none; }
   .marquee__list { flex-wrap: wrap; justify-content: center; }
 }
+
+/* Меню на мобильном: backdrop-filter у шапки делает её «контейнером» для fixed-потомков и сжимает панель меню до высоты шапки, поэтому при открытом меню фильтр отключаем */
+.is-menu-open .header, .is-menu-open .header.is-scrolled { -webkit-backdrop-filter: none; backdrop-filter: none; }

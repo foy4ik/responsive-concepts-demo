@@ -418,3 +418,6 @@ button { cursor: pointer; }
 
 /* Цифры в заголовках — «прописные» (lining), чтобы 11 лет не читалось как II лет */
 .title, .hero__title, .hero__facts strong, .badge__num, .logo__word, .price__title, .price__cost, .master__name, .advantage__title, .review__text, .faq__q, .modal__title, .nav__link, .nav__phone { font-variant-numeric: lining-nums; font-feature-settings: 'lnum' 1; }
+
+/* Меню на мобильном: backdrop-filter у шапки делает её «контейнером» для fixed-потомков и сжимает панель меню до высоты шапки, поэтому при открытом меню фильтр отключаем */
+.is-menu-open .header, .is-menu-open .header.is-scrolled { -webkit-backdrop-filter: none; backdrop-filter: none; }

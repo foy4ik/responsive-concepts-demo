@@ -427,3 +427,6 @@ button { cursor: pointer; }
   *, *::before, *::after { animation: none !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
   .hero__img { transform: scale(1.02); }
 }
+
+/* Меню на мобильном: backdrop-filter у шапки делает её «контейнером» для fixed-потомков и сжимает панель меню до высоты шапки, поэтому при открытом меню фильтр отключаем */
+.is-menu-open .header, .is-menu-open .header.is-scrolled { -webkit-backdrop-filter: none; backdrop-filter: none; }

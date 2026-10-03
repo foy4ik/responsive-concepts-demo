@@ -428,3 +428,8 @@ main { overflow-x: clip; }
 .product__info { min-height: 640px; }
 @media (max-width: 899px) { .product__info { min-height: 900px; } .gallery__thumbs { min-height: calc((100vw - 2 * var(--gutter) - 2 * var(--s-3)) / 3); } }
 .catalog__results { min-height: 60vh; }
+
+/* Меню на мобильном: backdrop-filter у шапки делает её «контейнером» для fixed-потомков и сжимает панель меню до высоты шапки, поэтому при открытом меню фильтр отключаем */
+.is-menu-open .header, .is-menu-open .header.is-scrolled { -webkit-backdrop-filter: none; backdrop-filter: none; }
+.is-menu-open .header { position: fixed; top: 0; left: 0; right: 0; }
+.is-menu-open .nav { padding-top: calc(var(--header-h) + 1.5rem); }
