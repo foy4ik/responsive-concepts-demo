@@ -1,0 +1,596 @@
+{
+ "colors": {
+  "white": {
+   "name": "Молочная",
+   "hex": "#F6F2EA"
+  },
+  "clay": {
+   "name": "Глина",
+   "hex": "#B5653A"
+  },
+  "sage": {
+   "name": "Шалфей",
+   "hex": "#8FA08A"
+  },
+  "graphite": {
+   "name": "Графит",
+   "hex": "#3E3E41"
+  },
+  "sand": {
+   "name": "Песок",
+   "hex": "#D6BE98"
+  },
+  "blue": {
+   "name": "Дымчатый синий",
+   "hex": "#5A7690"
+  }
+ },
+ "categories": {
+  "mugs": "Кружки",
+  "plates": "Тарелки и пиалы",
+  "vases": "Вазы и кашпо",
+  "sets": "Наборы"
+ },
+ "products": [
+  {
+   "id": 1,
+   "cat": "mugs",
+   "title": "Кружка «Утро»",
+   "price": 1900,
+   "colors": [
+    "white",
+    "clay",
+    "sage",
+    "graphite"
+   ],
+   "size": "350 мл · h 9 см",
+   "desc": "Широкая устойчивая кружка с ручкой под три пальца. Кладёте в неё сразу и пакетик чая, и ложку. Вылеплена на гончарном круге, глазурь ложится чуть неровно, поэтому каждая кружка уникальна.",
+   "hit": true,
+   "pop": 98,
+   "slug": "1",
+   "images": {
+    "white": [
+     "img/products/1-white-main.svg",
+     "img/products/1-white-top.svg",
+     "img/products/1-white-close.svg"
+    ],
+    "clay": [
+     "img/products/1-clay-main.svg",
+     "img/products/1-clay-top.svg",
+     "img/products/1-clay-close.svg"
+    ],
+    "sage": [
+     "img/products/1-sage-main.svg",
+     "img/products/1-sage-top.svg",
+     "img/products/1-sage-close.svg"
+    ],
+    "graphite": [
+     "img/products/1-graphite-main.svg",
+     "img/products/1-graphite-top.svg",
+     "img/products/1-graphite-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 2,
+   "cat": "mugs",
+   "title": "Чашка с блюдцем «Эспрессо»",
+   "price": 1700,
+   "colors": [
+    "white",
+    "graphite",
+    "blue"
+   ],
+   "size": "90 мл · блюдце 12 см",
+   "desc": "Небольшая толстостенная чашка держит тепло дольше тонкого фарфора. В паре с блюдцем, на которое ставится ложка и стакан воды.",
+   "pop": 74,
+   "slug": "2",
+   "images": {
+    "white": [
+     "img/products/2-white-main.svg",
+     "img/products/2-white-top.svg",
+     "img/products/2-white-close.svg"
+    ],
+    "graphite": [
+     "img/products/2-graphite-main.svg",
+     "img/products/2-graphite-top.svg",
+     "img/products/2-graphite-close.svg"
+    ],
+    "blue": [
+     "img/products/2-blue-main.svg",
+     "img/products/2-blue-top.svg",
+     "img/products/2-blue-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 3,
+   "cat": "mugs",
+   "title": "Кружка «Высокая»",
+   "price": 2100,
+   "colors": [
+    "sage",
+    "sand",
+    "clay"
+   ],
+   "size": "400 мл · h 12 см",
+   "desc": "Узкая кружка для латте и какао с высокой пенкой. Ручка вытянута вверх, чтобы пальцы не касались горячих стенок.",
+   "pop": 66,
+   "isNew": true,
+   "slug": "3",
+   "images": {
+    "sage": [
+     "img/products/3-sage-main.svg",
+     "img/products/3-sage-top.svg",
+     "img/products/3-sage-close.svg"
+    ],
+    "sand": [
+     "img/products/3-sand-main.svg",
+     "img/products/3-sand-top.svg",
+     "img/products/3-sand-close.svg"
+    ],
+    "clay": [
+     "img/products/3-clay-main.svg",
+     "img/products/3-clay-top.svg",
+     "img/products/3-clay-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 4,
+   "cat": "plates",
+   "title": "Тарелка обеденная",
+   "price": 2200,
+   "colors": [
+    "white",
+    "sand",
+    "sage",
+    "clay",
+    "graphite"
+   ],
+   "size": "Ø 26 см",
+   "desc": "Основная тарелка для ужина. Пологий борт не даёт соусу сбегать, а широкое дно подходит и для пасты, и для стейка.",
+   "hit": true,
+   "pop": 91,
+   "slug": "4",
+   "images": {
+    "white": [
+     "img/products/4-white-main.svg",
+     "img/products/4-white-top.svg",
+     "img/products/4-white-close.svg"
+    ],
+    "sand": [
+     "img/products/4-sand-main.svg",
+     "img/products/4-sand-top.svg",
+     "img/products/4-sand-close.svg"
+    ],
+    "sage": [
+     "img/products/4-sage-main.svg",
+     "img/products/4-sage-top.svg",
+     "img/products/4-sage-close.svg"
+    ],
+    "clay": [
+     "img/products/4-clay-main.svg",
+     "img/products/4-clay-top.svg",
+     "img/products/4-clay-close.svg"
+    ],
+    "graphite": [
+     "img/products/4-graphite-main.svg",
+     "img/products/4-graphite-top.svg",
+     "img/products/4-graphite-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 5,
+   "cat": "plates",
+   "title": "Тарелка десертная",
+   "price": 1500,
+   "colors": [
+    "white",
+    "sand",
+    "blue",
+    "clay"
+   ],
+   "size": "Ø 20 см",
+   "desc": "Для сырников, тостов и пирожных. Лёгкая матовая глазурь подчёркивает цвет еды.",
+   "pop": 58,
+   "slug": "5",
+   "images": {
+    "white": [
+     "img/products/5-white-main.svg",
+     "img/products/5-white-top.svg",
+     "img/products/5-white-close.svg"
+    ],
+    "sand": [
+     "img/products/5-sand-main.svg",
+     "img/products/5-sand-top.svg",
+     "img/products/5-sand-close.svg"
+    ],
+    "blue": [
+     "img/products/5-blue-main.svg",
+     "img/products/5-blue-top.svg",
+     "img/products/5-blue-close.svg"
+    ],
+    "clay": [
+     "img/products/5-clay-main.svg",
+     "img/products/5-clay-top.svg",
+     "img/products/5-clay-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 6,
+   "cat": "plates",
+   "title": "Тарелка глубокая",
+   "price": 1900,
+   "colors": [
+    "white",
+    "sage",
+    "graphite"
+   ],
+   "size": "Ø 22 см · 500 мл",
+   "desc": "Для супа, поке и салатов. Глубокая чаша держит форму и не остывает.",
+   "pop": 52,
+   "slug": "6",
+   "images": {
+    "white": [
+     "img/products/6-white-main.svg",
+     "img/products/6-white-top.svg",
+     "img/products/6-white-close.svg"
+    ],
+    "sage": [
+     "img/products/6-sage-main.svg",
+     "img/products/6-sage-top.svg",
+     "img/products/6-sage-close.svg"
+    ],
+    "graphite": [
+     "img/products/6-graphite-main.svg",
+     "img/products/6-graphite-top.svg",
+     "img/products/6-graphite-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 7,
+   "cat": "plates",
+   "title": "Пиала «Рис»",
+   "price": 1300,
+   "colors": [
+    "white",
+    "clay",
+    "blue",
+    "sand"
+   ],
+   "size": "Ø 12 см · 300 мл",
+   "desc": "Лежит в ладони, как будто выросла из неё. Подойдёт для риса, йогурта, орехов и соусов.",
+   "pop": 69,
+   "slug": "7",
+   "images": {
+    "white": [
+     "img/products/7-white-main.svg",
+     "img/products/7-white-top.svg",
+     "img/products/7-white-close.svg"
+    ],
+    "clay": [
+     "img/products/7-clay-main.svg",
+     "img/products/7-clay-top.svg",
+     "img/products/7-clay-close.svg"
+    ],
+    "blue": [
+     "img/products/7-blue-main.svg",
+     "img/products/7-blue-top.svg",
+     "img/products/7-blue-close.svg"
+    ],
+    "sand": [
+     "img/products/7-sand-main.svg",
+     "img/products/7-sand-top.svg",
+     "img/products/7-sand-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 8,
+   "cat": "vases",
+   "title": "Ваза «Капля»",
+   "price": 3400,
+   "colors": [
+    "white",
+    "clay",
+    "sand"
+   ],
+   "size": "h 20 см · Ø 14 см",
+   "desc": "Округлая ваза с узким горлом: одна ветка выглядит в ней как композиция. Внутри глазурь, вода не просачивается.",
+   "hit": true,
+   "pop": 88,
+   "slug": "8",
+   "images": {
+    "white": [
+     "img/products/8-white-main.svg",
+     "img/products/8-white-top.svg",
+     "img/products/8-white-close.svg"
+    ],
+    "clay": [
+     "img/products/8-clay-main.svg",
+     "img/products/8-clay-top.svg",
+     "img/products/8-clay-close.svg"
+    ],
+    "sand": [
+     "img/products/8-sand-main.svg",
+     "img/products/8-sand-top.svg",
+     "img/products/8-sand-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 9,
+   "cat": "vases",
+   "title": "Ваза «Бутыль»",
+   "price": 4600,
+   "colors": [
+    "graphite",
+    "sage",
+    "white"
+   ],
+   "size": "h 32 см · Ø 16 см",
+   "desc": "Высокая вытянутая форма для сухоцветов и длинных веток. Основание утяжелено, ваза устойчива.",
+   "pop": 63,
+   "slug": "9",
+   "images": {
+    "graphite": [
+     "img/products/9-graphite-main.svg",
+     "img/products/9-graphite-top.svg",
+     "img/products/9-graphite-close.svg"
+    ],
+    "sage": [
+     "img/products/9-sage-main.svg",
+     "img/products/9-sage-top.svg",
+     "img/products/9-sage-close.svg"
+    ],
+    "white": [
+     "img/products/9-white-main.svg",
+     "img/products/9-white-top.svg",
+     "img/products/9-white-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 10,
+   "cat": "vases",
+   "title": "Ваза «Холм»",
+   "price": 2900,
+   "colors": [
+    "sand",
+    "clay",
+    "blue",
+    "white"
+   ],
+   "size": "h 14 см · Ø 22 см",
+   "desc": "Низкая широкая ваза для пионов и георгин. Шесть цветков, и композиция готова.",
+   "pop": 55,
+   "isNew": true,
+   "slug": "10",
+   "images": {
+    "sand": [
+     "img/products/10-sand-main.svg",
+     "img/products/10-sand-top.svg",
+     "img/products/10-sand-close.svg"
+    ],
+    "clay": [
+     "img/products/10-clay-main.svg",
+     "img/products/10-clay-top.svg",
+     "img/products/10-clay-close.svg"
+    ],
+    "blue": [
+     "img/products/10-blue-main.svg",
+     "img/products/10-blue-top.svg",
+     "img/products/10-blue-close.svg"
+    ],
+    "white": [
+     "img/products/10-white-main.svg",
+     "img/products/10-white-top.svg",
+     "img/products/10-white-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 11,
+   "cat": "vases",
+   "title": "Кашпо «Склон»",
+   "price": 2700,
+   "colors": [
+    "white",
+    "clay",
+    "sage"
+   ],
+   "size": "h 16 см · Ø 18 см",
+   "desc": "Кашпо с дренажным отверстием и поддоном. Подойдёт для каланхоэ, эхеверии и мелких ароидных.",
+   "pop": 47,
+   "slug": "11",
+   "images": {
+    "white": [
+     "img/products/11-white-main.svg",
+     "img/products/11-white-top.svg",
+     "img/products/11-white-close.svg"
+    ],
+    "clay": [
+     "img/products/11-clay-main.svg",
+     "img/products/11-clay-top.svg",
+     "img/products/11-clay-close.svg"
+    ],
+    "sage": [
+     "img/products/11-sage-main.svg",
+     "img/products/11-sage-top.svg",
+     "img/products/11-sage-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 12,
+   "cat": "sets",
+   "title": "Набор «Завтрак»",
+   "price": 7200,
+   "oldPrice": 8300,
+   "colors": [
+    "white",
+    "sand",
+    "sage"
+   ],
+   "size": "2 кружки 350 мл + 2 тарелки 20 см",
+   "desc": "Всё для завтрака вдвое: две кружки и две десертные тарелки в одной глазури. В подарочной упаковке из крафт-картона.",
+   "hit": true,
+   "pop": 82,
+   "slug": "12",
+   "images": {
+    "white": [
+     "img/products/12-white-main.svg",
+     "img/products/12-white-top.svg",
+     "img/products/12-white-close.svg"
+    ],
+    "sand": [
+     "img/products/12-sand-main.svg",
+     "img/products/12-sand-top.svg",
+     "img/products/12-sand-close.svg"
+    ],
+    "sage": [
+     "img/products/12-sage-main.svg",
+     "img/products/12-sage-top.svg",
+     "img/products/12-sage-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 13,
+   "cat": "sets",
+   "title": "Набор «Чай вдвоём»",
+   "price": 8900,
+   "colors": [
+    "graphite",
+    "clay",
+    "blue"
+   ],
+   "size": "Ваза-заварник + 2 пиалы",
+   "desc": "Заварник-«капля» и две пиалы без ручек для японской чайной церемонии. Керамика внутри покрыта прозрачной глазурью.",
+   "pop": 60,
+   "slug": "13",
+   "images": {
+    "graphite": [
+     "img/products/13-graphite-main.svg",
+     "img/products/13-graphite-top.svg",
+     "img/products/13-graphite-close.svg"
+    ],
+    "clay": [
+     "img/products/13-clay-main.svg",
+     "img/products/13-clay-top.svg",
+     "img/products/13-clay-close.svg"
+    ],
+    "blue": [
+     "img/products/13-blue-main.svg",
+     "img/products/13-blue-top.svg",
+     "img/products/13-blue-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 14,
+   "cat": "sets",
+   "title": "Набор «Ужин на четверых»",
+   "price": 14500,
+   "oldPrice": 16800,
+   "colors": [
+    "white",
+    "graphite",
+    "sage",
+    "sand"
+   ],
+   "size": "4 тарелки 26 см",
+   "desc": "Четыре обеденные тарелки в одном цвете. Можно мыть в посудомоечной машине и ставить в духовку до 220 °C.",
+   "pop": 71,
+   "slug": "14",
+   "images": {
+    "white": [
+     "img/products/14-white-main.svg",
+     "img/products/14-white-top.svg",
+     "img/products/14-white-close.svg"
+    ],
+    "graphite": [
+     "img/products/14-graphite-main.svg",
+     "img/products/14-graphite-top.svg",
+     "img/products/14-graphite-close.svg"
+    ],
+    "sage": [
+     "img/products/14-sage-main.svg",
+     "img/products/14-sage-top.svg",
+     "img/products/14-sage-close.svg"
+    ],
+    "sand": [
+     "img/products/14-sand-main.svg",
+     "img/products/14-sand-top.svg",
+     "img/products/14-sand-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  },
+  {
+   "id": 15,
+   "cat": "sets",
+   "title": "Набор «Подарочный»",
+   "price": 4900,
+   "colors": [
+    "white",
+    "sage",
+    "clay"
+   ],
+   "size": "Кружка + пиала + тарелка 20 см",
+   "desc": "Когда не знаете, что подарить: три небольшие вещи, которые используют каждый день. Упаковка и открытка входят.",
+   "pop": 77,
+   "slug": "15",
+   "images": {
+    "white": [
+     "img/products/15-white-main.svg",
+     "img/products/15-white-top.svg",
+     "img/products/15-white-close.svg"
+    ],
+    "sage": [
+     "img/products/15-sage-main.svg",
+     "img/products/15-sage-top.svg",
+     "img/products/15-sage-close.svg"
+    ],
+    "clay": [
+     "img/products/15-clay-main.svg",
+     "img/products/15-clay-top.svg",
+     "img/products/15-clay-close.svg"
+    ]
+   },
+   "care": "Можно мыть в посудомоечной машине (щадящий режим) и использовать в микроволновой печи. Не ставьте на открытый огонь. Для сохранения глазури не используйте жёсткие губки.",
+   "delivery": "Курьером по Москве — 1–2 дня, 390 ₽ (бесплатно от 5 000 ₽). По России СДЭК и Почтой — 3–7 дней. Каждое изделие упаковываем в гофрокартон и крафт-бумагу."
+  }
+ ]
+}

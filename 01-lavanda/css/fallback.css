@@ -1,0 +1,4 @@
+/* Резервные шрифты с подогнанными метриками: пока грузится веб-шрифт, текст занимает те же места — нет сдвига вёрстки (CLS) */
+@font-face{font-family:'Cormorant Garamond Fallback';font-style:normal;font-weight:300 700;src:local('Georgia');size-adjust:85.63%;ascent-override:107.91%;descent-override:33.52%;line-gap-override:0%}
+@font-face{font-family:'Cormorant Garamond Fallback';font-style:italic;font-weight:300 700;src:local('Georgia');size-adjust:77.83%;ascent-override:118.72%;descent-override:36.87%;line-gap-override:0%}
+@font-face{font-family:'Manrope Fallback';font-style:normal;font-weight:200 800;src:local('Arial');size-adjust:100.71%;ascent-override:105.85%;descent-override:29.79%;line-gap-override:0%}

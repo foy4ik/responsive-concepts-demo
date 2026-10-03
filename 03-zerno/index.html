@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зерно — кофейня с собственной обжаркой в центре Москвы</title>
+  <meta name="description" content="Кофейня и обжарка «Зерно»: обжариваем зерно сами, готовим завтраки и десерты, бронируем столики, доставляем по центру за 90 минут. Меню, сорта, часы работы. Концепт-проект.">
+  <meta name="theme-color" content="#F3EDE4">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Зерно — кофе, который обжариваем сами">
+  <meta property="og:description" content="Собственная обжарка, завтраки до 16:00, доставка и самовывоз со скидкой 10%.">
+  <meta property="og:image" content="img/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/lora-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="img/hero-800.webp" imagesrcset="img/hero-520.webp 520w, img/hero-800.webp 800w, img/hero-1100.webp 1100w" imagesizes="(min-width: 900px) 480px, 84vw" fetchpriority="high">
+  <!-- fonts:start -->
+  <style>@font-face{font-family:'Lora';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-cyrillic.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Lora';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Lora';font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rub.woff2) format('woff2');unicode-range:U+20BD}@font-face{font-family:'Lora';font-style:italic;font-weight:400 700;font-display:swap;src:url(fonts/lora-cyrillic-italic.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Lora';font-style:italic;font-weight:400 700;font-display:swap;src:url(fonts/lora-latin-italic.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Lora';font-style:italic;font-weight:400 700;font-display:swap;src:url(fonts/lora-rub-italic.woff2) format('woff2');unicode-range:U+20BD}@font-face{font-family:'Onest';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/onest-cyrillic.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Onest';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/onest-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Onest';font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/onest-rub.woff2) format('woff2');unicode-range:U+20BD}@font-face{font-family:'Lora Fallback';font-style:normal;font-weight:400 700;src:local('Georgia');size-adjust:93.51%;ascent-override:107.58%;descent-override:29.3%;line-gap-override:0%}@font-face{font-family:'Lora Fallback';font-style:italic;font-weight:400 700;src:local('Georgia');size-adjust:100.95%;ascent-override:99.66%;descent-override:27.14%;line-gap-override:0%}@font-face{font-family:'Onest Fallback';font-style:normal;font-weight:100 900;src:local('Arial');size-adjust:103.63%;ascent-override:93.6%;descent-override:29.43%;line-gap-override:0%}</style>
+  <!-- fonts:end -->
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Зерно",
+    "description": "Кофейня и обжарка: собственный кофе, завтраки, десерты, доставка.",
+    "image": "img/og.jpg",
+    "telephone": "+7 (900) 000-00-00",
+    "email": "hello@zerno.example.ru",
+    "servesCuisine": ["Кофе", "Завтраки", "Десерты"],
+    "priceRange": "₽₽",
+    "menu": "#menu",
+    "address": { "@type": "PostalAddress", "streetAddress": "Петровка, 18, стр. 2", "addressLocality": "Москва", "addressCountry": "RU" },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "21:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "09:00", "closes": "22:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-bean" viewBox="0 0 24 24"><path d="M12.200 2.500c-4.700.4-8 4.300-8 9.200 0 5.400 4 9.800 8.200 9.800 4.300 0 7.600-3.900 7.600-9 0-5.200-3.800-10.400-7.800-10Z" fill="currentColor"/><path d="M12.500 3.500c-1.800 3-2.800 5.100-1.200 8s1.600 5.400 0 8.500" fill="none" stroke="#F3EDE4" stroke-width="1.600" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/><circle cx="12" cy="9.500" r="2.500" fill="none" stroke="currentColor" stroke-width="1.700"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.500" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="M12 7.500V12l3 2" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linecap="round"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.500" y="5.500" width="17" height="13" rx="2.500" fill="none" stroke="currentColor" stroke-width="1.700"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.700" stroke-linejoin="round"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7.500" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M6 12h12" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round"/></symbol>
+  <symbol id="i-scooter" viewBox="0 0 32 32"><circle cx="8" cy="23" r="4" fill="none" stroke="currentColor" stroke-width="1.800"/><circle cx="25" cy="23" r="4" fill="none" stroke="currentColor" stroke-width="1.800"/><path d="M8 23h6l4-9h5l2 9M18 14l-1-4h-4M21 8h4" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 32 32"><path d="M8 11h16l2 17H6l2-17Zm3 0V8a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.500 2.600 5.400 5.900.8-4.300 4.100 1 5.800L12 16.800 6.800 19.600l1-5.800L3.500 9.700l5.900-.8L12 3.500Z" fill="currentColor"/></symbol>
+  <symbol id="coffee-bag" viewBox="0 0 120 150"><path d="M20 22h80l8 118H12L20 22Z" fill="#D6B88F" stroke="#3B2A20" stroke-width="3" stroke-linejoin="round"/><path d="M20 22c14-12 66-12 80 0" fill="none" stroke="#3B2A20" stroke-width="3"/><path d="M26 34h68" stroke="#3B2A20" stroke-width="3" stroke-dasharray="4 5"/><rect x="30" y="58" width="60" height="62" rx="10" fill="var(--label, #D9603B)" stroke="#3B2A20" stroke-width="3"/></symbol>
+</svg>
+
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="header" data-header>
+  <div class="header__inner container">
+    <a class="logo" href="#top" aria-label="Зерно — на главную">
+      <svg class="logo__bean" width="30" height="30" aria-hidden="true"><use href="#i-bean"/></svg>
+      <span class="logo__word">Зерно</span>
+    </a>
+    <nav class="nav" data-nav aria-label="Основное меню">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#menu">Меню</a></li>
+        <li><a class="nav__link" href="#beans">Наше зерно</a></li>
+        <li><a class="nav__link" href="#team">Бариста</a></li>
+        <li><a class="nav__link" href="#atmosphere">Атмосфера</a></li>
+        <li><a class="nav__link" href="#delivery">Доставка</a></li>
+        <li><a class="nav__link" href="#contacts">Контакты</a></li>
+      </ul>
+      <div class="nav__foot">
+        <a class="nav__phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
+        <p class="nav__hours">Пн–Пт 8:00–21:00 · Сб–Вс 9:00–22:00</p>
+      </div>
+    </nav>
+    <a class="header__phone" href="tel:+79000000000"><svg width="18" height="18" aria-hidden="true"><use href="#i-phone"/></svg><span>+7 (900) 000-00-00</span></a>
+    <button class="btn btn--sm header__cta" type="button" data-modal-open="book-modal">Забронировать</button>
+    <button class="burger" type="button" data-burger aria-expanded="false" aria-label="Открыть меню"><span class="burger__line"></span><span class="burger__line"></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- 1. Первый экран -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero__inner container">
+      <div class="hero__text">
+        <p class="tag tag--terra"><svg width="18" height="18" aria-hidden="true"><use href="#i-bean"/></svg>Обжарка каждую среду</p>
+        <h1 class="hero__title" id="hero-title">Кофе, который <em class="scribble">обжариваем</em> сами</h1>
+        <p class="lead hero__lead">Берём зерно у фермеров из Эфиопии, Колумбии и Кении, жарим небольшими партиями в двух шагах от кофейни и варим в тот же день. Приходите на завтрак, берите зерно с собой.</p>
+        <div class="hero__actions">
+          <button class="btn" type="button" data-modal-open="book-modal">Забронировать столик <svg width="20" height="20" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <a class="btn btn--light" href="#menu">Смотреть меню</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__photo">
+          <img src="img/hero-800.webp" srcset="img/hero-520.webp 520w, img/hero-800.webp 800w, img/hero-1100.webp 1100w" sizes="(min-width: 900px) 480px, 84vw" width="800" height="1000" alt="Бариста держит чашку капучино с рисунком на молочной пене" fetchpriority="high" decoding="async">
+          <svg class="steam" viewBox="0 0 80 90" aria-hidden="true"><path d="M20 86c-9-14 9-22 0-38s9-24 0-40" fill="none" stroke="#F3EDE4" stroke-width="3.5" stroke-linecap="round"/><path d="M40 86c-9-14 9-22 0-38s9-24 0-40" fill="none" stroke="#F3EDE4" stroke-width="3.5" stroke-linecap="round"/><path d="M60 86c-9-14 9-22 0-38s9-24 0-40" fill="none" stroke="#F3EDE4" stroke-width="3.5" stroke-linecap="round"/></svg>
+        </div>
+        <aside class="receipt" aria-label="Часы работы">
+          <p class="receipt__title">Зерно · часы работы</p>
+          <dl class="receipt__rows">
+            <div data-days="1,2,3,4,5"><dt>Пн–Пт</dt><dd>8:00–21:00</dd></div>
+            <div data-days="0,6"><dt>Сб–Вс</dt><dd>9:00–22:00</dd></div>
+          </dl>
+          <p class="receipt__status" data-open-status><span class="receipt__dot" aria-hidden="true"></span><span data-open-text>Открыты сегодня</span></p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Бегущая строка -->
+  <div class="marquee" role="group" aria-label="Сорта зерна сегодня в обжарке">
+    <div class="marquee__track" aria-hidden="true">
+      <ul class="marquee__list">
+        <li>Эфиопия Гуджи</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Колумбия Супремо</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Бразилия Сантос</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Кения АА</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Гватемала Антигуа</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Руанда Букаву</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li>
+      </ul>
+      <ul class="marquee__list">
+        <li>Эфиопия Гуджи</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Колумбия Супремо</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Бразилия Сантос</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Кения АА</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Гватемала Антигуа</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li><li>Руанда Букаву</li><li><svg width="22" height="22"><use href="#i-bean"/></svg></li>
+      </ul>
+    </div>
+    <p class="visually-hidden">Эфиопия Гуджи, Колумбия Супремо, Бразилия Сантос, Кения АА, Гватемала Антигуа, Руанда Букаву</p>
+  </div>
+
+  <!-- 3. Меню -->
+  <section class="section menu" id="menu" aria-labelledby="menu-title">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <p class="tag">Меню</p>
+        <h2 class="title" id="menu-title">Что мы <em class="scribble">наливаем</em> и печём</h2>
+        <p class="lead">Молоко от фермеров из Тверской области, выпечка из нашей пекарни. Растительное молоко — без доплаты.</p>
+      </header>
+      <div class="tabs" data-tabs data-reveal>
+        <div class="tabs__list" role="tablist" aria-label="Разделы меню">
+          <button class="tabs__tab is-active" type="button" role="tab" id="tab-coffee" aria-controls="panel-coffee" aria-selected="true" data-tab="coffee">Кофе</button>
+          <button class="tabs__tab" type="button" role="tab" id="tab-tea" aria-controls="panel-tea" aria-selected="false" tabindex="-1" data-tab="tea">Чай</button>
+          <button class="tabs__tab" type="button" role="tab" id="tab-dessert" aria-controls="panel-dessert" aria-selected="false" tabindex="-1" data-tab="dessert">Десерты</button>
+          <button class="tabs__tab" type="button" role="tab" id="tab-breakfast" aria-controls="panel-breakfast" aria-selected="false" tabindex="-1" data-tab="breakfast">Завтраки</button>
+        </div>
+
+        <div class="tabs__panel is-active" role="tabpanel" id="panel-coffee" aria-labelledby="tab-coffee" data-panel="coffee">
+          <figure class="menu__photo"><img src="img/tab-coffee-560.webp" srcset="img/tab-coffee-560.webp 560w, img/tab-coffee-900.webp 900w" sizes="(min-width: 1024px) 360px, 90vw" width="560" height="700" loading="lazy" alt="Бариста выводит рисунок на латте в стакане"></figure>
+          <ul class="dishes" data-scroller>
+            <li class="dish"><h3 class="dish__name">Эспрессо</h3><p class="dish__desc">Двойной, сорт дня на выбор</p><p class="dish__foot"><span>60 мл</span><span class="dish__price">190 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Американо</h3><p class="dish__desc">Эспрессо на горячей воде, мягкий и чистый вкус</p><p class="dish__foot"><span>250 мл</span><span class="dish__price">220 ₽</span></p></li>
+            <li class="dish dish--hit"><h3 class="dish__name">Капучино</h3><p class="dish__desc">Эспрессо и плотная молочная пена</p><p class="dish__foot"><span>250 мл</span><span class="dish__price">250 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Латте</h3><p class="dish__desc">Больше молока, нежная текстура и шёлковая пена</p><p class="dish__foot"><span>300 мл</span><span class="dish__price">270 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Раф</h3><p class="dish__desc">Сливки, ваниль и эспрессо, десертный вкус</p><p class="dish__foot"><span>300 мл</span><span class="dish__price">290 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Воронка V60</h3><p class="dish__desc">Фильтр-кофе из зерна, обжаренного на этой неделе</p><p class="dish__foot"><span>250 мл</span><span class="dish__price">320 ₽</span></p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-tea" aria-labelledby="tab-tea" data-panel="tea" hidden>
+          <figure class="menu__photo"><img src="img/tab-tea-560.webp" srcset="img/tab-tea-560.webp 560w, img/tab-tea-900.webp 900w" sizes="(min-width: 1024px) 360px, 90vw" width="560" height="700" loading="lazy" alt="Чашка чая на блюдце в пятнах света на тёмном столе"></figure>
+          <ul class="dishes" data-scroller>
+            <li class="dish"><h3 class="dish__name">Чёрный с бергамотом</h3><p class="dish__desc">Классика, листовой цейлонский</p><p class="dish__foot"><span>400 мл</span><span class="dish__price">230 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Зелёный сенча</h3><p class="dish__desc">Свежий, травяной, с ноткой морской капусты</p><p class="dish__foot"><span>400 мл</span><span class="dish__price">230 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Улун Те Гуань Инь</h3><p class="dish__desc">Цветочный, с долгим сладким послевкусием</p><p class="dish__foot"><span>400 мл</span><span class="dish__price">290 ₽</span></p></li>
+            <li class="dish dish--hit"><h3 class="dish__name">Облепиха и имбирь</h3><p class="dish__desc">Согревающий, с мёдом и свежим имбирём</p><p class="dish__foot"><span>400 мл</span><span class="dish__price">320 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Матча-латте</h3><p class="dish__desc">Японская матча на молоке на ваш выбор</p><p class="dish__foot"><span>300 мл</span><span class="dish__price">330 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Малина и мята</h3><p class="dish__desc">Ягодный чай-коктейль, горячий или со льдом</p><p class="dish__foot"><span>400 мл</span><span class="dish__price">280 ₽</span></p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-dessert" aria-labelledby="tab-dessert" data-panel="dessert" hidden>
+          <figure class="menu__photo"><img src="img/tab-dessert-560.webp" srcset="img/tab-dessert-560.webp 560w, img/tab-dessert-900.webp 900w" sizes="(min-width: 1024px) 360px, 90vw" width="560" height="700" loading="lazy" alt="Золотистый круассан с вареньем на белой тарелке"></figure>
+          <ul class="dishes" data-scroller>
+            <li class="dish dish--hit"><h3 class="dish__name">Круассан сливочный</h3><p class="dish__desc">Слоёное тесто на французском масле, печём с утра</p><p class="dish__foot"><span>90 г</span><span class="dish__price">180 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Миндальный круассан</h3><p class="dish__desc">С франжипаном и лепестками миндаля</p><p class="dish__foot"><span>110 г</span><span class="dish__price">240 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Чизкейк «Нью-Йорк»</h3><p class="dish__desc">Запечённый, с ягодным соусом</p><p class="dish__foot"><span>130 г</span><span class="dish__price">290 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Брауни с солью</h3><p class="dish__desc">Тёмный шоколад и пекан, хрустящая корочка</p><p class="dish__foot"><span>90 г</span><span class="dish__price">220 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Морковный торт</h3><p class="dish__desc">Влажный бисквит с корицей и сливочным кремом</p><p class="dish__foot"><span>140 г</span><span class="dish__price">260 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Овсяное печенье</h3><p class="dish__desc">С изюмом и корицей, как у бабушки</p><p class="dish__foot"><span>60 г</span><span class="dish__price">90 ₽</span></p></li>
+          </ul>
+        </div>
+
+        <div class="tabs__panel" role="tabpanel" id="panel-breakfast" aria-labelledby="tab-breakfast" data-panel="breakfast" hidden>
+          <figure class="menu__photo"><img src="img/tab-breakfast-560.webp" srcset="img/tab-breakfast-560.webp 560w, img/tab-breakfast-900.webp 900w" sizes="(min-width: 1024px) 360px, 90vw" width="560" height="700" loading="lazy" alt="Яйца пашот на тосте с зеленью и чашка кофе"></figure>
+          <ul class="dishes" data-scroller>
+            <li class="dish dish--hit"><h3 class="dish__name">Яйца пашот на тосте</h3><p class="dish__desc">С хлебом на закваске и хрустящей зеленью</p><p class="dish__foot"><span>240 г</span><span class="dish__price">420 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Сырники со сметаной</h3><p class="dish__desc">Три нежных сырника и ягодное варенье</p><p class="dish__foot"><span>220 г</span><span class="dish__price">340 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Гранола с йогуртом</h3><p class="dish__desc">Домашняя гранола, греческий йогурт, ягоды</p><p class="dish__foot"><span>250 г</span><span class="dish__price">310 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Авокадо-тост</h3><p class="dish__desc">Гуакамоле, лайм и семена кунжута</p><p class="dish__foot"><span>200 г</span><span class="dish__price">390 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Омлет с травами</h3><p class="dish__desc">Три яйца, сливки, пармезан и зелень</p><p class="dish__foot"><span>230 г</span><span class="dish__price">330 ₽</span></p></li>
+            <li class="dish"><h3 class="dish__name">Овсянка с грушей</h3><p class="dish__desc">На молоке, с карамелизированной грушей и орехами</p><p class="dish__foot"><span>280 г</span><span class="dish__price">290 ₽</span></p></li>
+          </ul>
+        </div>
+      </div>
+      <p class="menu__note">Завтраки подаём с 8:00 до 16:00. Кофе с собой — минус 10 ₽ за свой стакан.</p>
+    </div>
+  </section>
+
+  <!-- 4. Наше зерно -->
+  <section class="section beans" id="beans" aria-labelledby="beans-title">
+    <div class="container">
+      <header class="section__head beans__head" data-reveal>
+        <div>
+          <p class="tag tag--coffee">Наше зерно</p>
+          <h2 class="title" id="beans-title">Четыре сорта <em class="scribble">из обжарки</em></h2>
+          <p class="lead">Жарим по средам в Гранатном переулке и фасуем в крафт. Каждый пакет подписан датой обжарки: свежесть видно сразу.</p>
+        </div>
+        <figure class="beans__roast"><img src="img/roast-700.webp" srcset="img/roast-700.webp 700w, img/roast-1200.webp 1200w" sizes="(min-width: 900px) 380px, 90vw" width="700" height="467" loading="lazy" alt="Обжаренные кофейные зёрна в барабане ростера"></figure>
+      </header>
+      <ul class="sorts">
+        <li class="sort" style="--label:#D9603B" data-reveal>
+          <svg class="sort__bag" width="96" height="120" aria-hidden="true"><use href="#coffee-bag"/></svg>
+          <div class="sort__body"><p class="sort__origin">Эфиопия · натуральная</p><h3 class="sort__name">Гуджи</h3>
+            <ul class="notes"><li>жасмин</li><li>черника</li><li>мёд</li></ul>
+            <div class="roast" role="img" aria-label="Обжарка светлая, 2 из 5"><span class="roast__label">Обжарка</span><span class="roast__scale"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+            <p class="sort__foot"><span class="sort__price">890 ₽ <small>/ 250 г</small></span><button class="sort__btn" type="button" data-modal-open="order-modal" data-bean="Эфиопия Гуджи, 250 г" aria-label="Заказать зерно Эфиопия Гуджи"><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></button></p></div>
+        </li>
+        <li class="sort" style="--label:#7E9B6B" data-reveal data-reveal-delay="100">
+          <svg class="sort__bag" width="96" height="120" aria-hidden="true"><use href="#coffee-bag"/></svg>
+          <div class="sort__body"><p class="sort__origin">Колумбия · мытая</p><h3 class="sort__name">Супремо</h3>
+            <ul class="notes"><li>шоколад</li><li>карамель</li><li>орех</li></ul>
+            <div class="roast" role="img" aria-label="Обжарка средняя, 3 из 5"><span class="roast__label">Обжарка</span><span class="roast__scale"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+            <p class="sort__foot"><span class="sort__price">690 ₽ <small>/ 250 г</small></span><button class="sort__btn" type="button" data-modal-open="order-modal" data-bean="Колумбия Супремо, 250 г" aria-label="Заказать зерно Колумбия Супремо"><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></button></p></div>
+        </li>
+        <li class="sort" style="--label:#C9892F" data-reveal data-reveal-delay="200">
+          <svg class="sort__bag" width="96" height="120" aria-hidden="true"><use href="#coffee-bag"/></svg>
+          <div class="sort__body"><p class="sort__origin">Бразилия · натуральная</p><h3 class="sort__name">Сантос</h3>
+            <ul class="notes"><li>какао</li><li>фундук</li><li>сливки</li></ul>
+            <div class="roast" role="img" aria-label="Обжарка тёмная, 4 из 5"><span class="roast__label">Обжарка</span><span class="roast__scale"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+            <p class="sort__foot"><span class="sort__price">620 ₽ <small>/ 250 г</small></span><button class="sort__btn" type="button" data-modal-open="order-modal" data-bean="Бразилия Сантос, 250 г" aria-label="Заказать зерно Бразилия Сантос"><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></button></p></div>
+        </li>
+        <li class="sort" style="--label:#8E4A5C" data-reveal data-reveal-delay="300">
+          <svg class="sort__bag" width="96" height="120" aria-hidden="true"><use href="#coffee-bag"/></svg>
+          <div class="sort__body"><p class="sort__origin">Кения · мытая</p><h3 class="sort__name">АА</h3>
+            <ul class="notes"><li>смородина</li><li>грейпфрут</li><li>томат</li></ul>
+            <div class="roast" role="img" aria-label="Обжарка светлая, 2 из 5"><span class="roast__label">Обжарка</span><span class="roast__scale"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+            <p class="sort__foot"><span class="sort__price">940 ₽ <small>/ 250 г</small></span><button class="sort__btn" type="button" data-modal-open="order-modal" data-bean="Кения АА, 250 г" aria-label="Заказать зерно Кения АА"><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></button></p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 5. Бариста -->
+  <section class="section team" id="team" aria-labelledby="team-title">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <p class="tag">Команда</p>
+        <h2 class="title" id="team-title">Те, кто <em class="scribble">варит</em> ваш кофе</h2>
+      </header>
+      <ul class="team__grid">
+        <li class="person" data-reveal><figure class="person__photo"><img src="img/b1-460.webp" srcset="img/b1-460.webp 460w, img/b1-800.webp 800w" sizes="(min-width: 900px) 320px, 80vw" width="460" height="575" loading="lazy" alt="Артём, старший бариста, в тёмном фартуке с чашкой кофе"></figure><h3 class="person__name">Артём Лопатин</h3><p class="person__role">Старший бариста</p><p class="person__fav">Любит <strong>воронку из кенийского зерна</strong> и лёгкий джаз по утрам.</p></li>
+        <li class="person" data-reveal data-reveal-delay="120"><figure class="person__photo"><img src="img/b2-460.webp" srcset="img/b2-460.webp 460w, img/b2-800.webp 800w" sizes="(min-width: 900px) 320px, 80vw" width="460" height="575" loading="lazy" alt="Елена, бариста, подаёт холодный напиток с улыбкой"></figure><h3 class="person__name">Елена Мартова</h3><p class="person__role">Бариста, сервис</p><p class="person__fav">Помнит, кто как любит. Рекомендует <strong>раф с лавандой</strong> по сезону.</p></li>
+        <li class="person" data-reveal data-reveal-delay="240"><figure class="person__photo"><img src="img/b3-460.webp" srcset="img/b3-460.webp 460w, img/b3-800.webp 800w" sizes="(min-width: 900px) 320px, 80vw" width="460" height="575" loading="lazy" alt="Два ростера пробуют кофе на каппинге"></figure><h3 class="person__name">Тимур и Игорь</h3><p class="person__role">Ростеры</p><p class="person__fav">Каждую неделю пробуют по 20 образцов и берут <strong>лучшие 4</strong> в обжарку.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Атмосфера -->
+  <section class="section atmosphere" id="atmosphere" aria-labelledby="atm-title">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <p class="tag tag--coffee">Атмосфера</p>
+        <h2 class="title" id="atm-title">Здесь можно <em class="scribble">остаться</em></h2>
+        <p class="lead">Два зала, полки с книгами, розетки у каждого стола и тёплый свет до закрытия. Работать за ноутбуком можно сколько угодно.</p>
+      </header>
+      <ul class="masonry">
+        <li class="masonry__item" data-reveal><img src="img/a1-480.webp" srcset="img/a1-480.webp 480w, img/a1-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="600" loading="lazy" alt="Полки с чайниками и книгами в деревянной нише кофейни"></li>
+        <li class="masonry__item" data-reveal data-reveal-delay="80"><img src="img/a2-480.webp" srcset="img/a2-480.webp 480w, img/a2-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="480" loading="lazy" alt="Вечерний зал с красными креслами и витриной десертов"></li>
+        <li class="masonry__item" data-reveal><img src="img/a3-480.webp" srcset="img/a3-480.webp 480w, img/a3-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="480" loading="lazy" alt="Светлый зал с растениями, диванами и деревянными стульями"></li>
+        <li class="masonry__item" data-reveal data-reveal-delay="80"><img src="img/a4-480.webp" srcset="img/a4-480.webp 480w, img/a4-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="600" loading="lazy" alt="Монстера у окна рядом с кованой рамой кофейни"></li>
+        <li class="masonry__item" data-reveal><img src="img/a5-480.webp" srcset="img/a5-480.webp 480w, img/a5-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="480" loading="lazy" alt="Жёлтая лампа на барной стойке у полок с чашками"></li>
+        <li class="masonry__item" data-reveal data-reveal-delay="80"><img src="img/a6-480.webp" srcset="img/a6-480.webp 480w, img/a6-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="480" loading="lazy" alt="Уголок с лампой, часами и фотографией на стойке"></li>
+        <li class="masonry__item" data-reveal><img src="img/a7-480.webp" srcset="img/a7-480.webp 480w, img/a7-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="720" loading="lazy" alt="Холдеры с зерном и молотым кофе рядом с латте"></li>
+        <li class="masonry__item" data-reveal data-reveal-delay="80"><img src="img/a8-480.webp" srcset="img/a8-480.webp 480w, img/a8-900.webp 900w" sizes="(min-width: 900px) 30vw, 46vw" width="480" height="720" loading="lazy" alt="Латте с рисунком папоротника на тёмной чашке, вид сверху"></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. Бронь столика -->
+  <section class="section booking" id="booking" aria-labelledby="booking-title">
+    <div class="container booking__inner">
+      <div class="booking__text" data-reveal>
+        <p class="tag tag--terra">Бронь</p>
+        <h2 class="title" id="booking-title">Займите свой <em class="scribble">столик</em></h2>
+        <p class="lead">Оставьте заявку, и мы подтвердим бронь в течение 10 минут. Стол ждёт вас 15 минут после назначенного времени.</p>
+        <ul class="booking__perks"><li><svg width="22" height="22" aria-hidden="true"><use href="#i-check"/></svg>До 10 гостей за одним столом</li><li><svg width="22" height="22" aria-hidden="true"><use href="#i-check"/></svg>Тихий зал для работы и встреч</li><li><svg width="22" height="22" aria-hidden="true"><use href="#i-check"/></svg>Банкеты на 20 человек — по запросу</li></ul>
+      </div>
+      <form class="form ticket" data-form="thanks" data-reveal data-reveal-delay="120" novalidate aria-label="Бронь столика">
+        <div class="form__grid">
+          <div class="field" data-field><label class="field__label" for="b-name">Ваше имя</label><input class="field__input" id="b-name" name="name" type="text" autocomplete="given-name" required data-validate="name" placeholder="Например, Марина"><p class="field__error" data-error hidden></p></div>
+          <div class="field" data-field><label class="field__label" for="b-phone">Телефон</label><input class="field__input" id="b-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required data-validate="phone" data-phone placeholder="+7 (___) ___-__-__"><p class="field__error" data-error hidden></p></div>
+          <div class="field" data-field><label class="field__label" for="b-date">Дата</label><input class="field__input" id="b-date" name="date" type="date" required data-validate="required" data-min-today><p class="field__error" data-error hidden></p></div>
+          <div class="field" data-field><label class="field__label" for="b-time">Время</label><div class="field__select"><select class="field__input" id="b-time" name="time" required data-validate="required"><option value="">Выберите время</option><option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option><option>19:00</option><option>20:00</option></select><svg width="20" height="20" aria-hidden="true"><use href="#i-arrow"/></svg></div><p class="field__error" data-error hidden></p></div>
+          <div class="field field--wide"><span class="field__label" id="guests-label">Гостей</span>
+            <div class="stepper" role="group" aria-labelledby="guests-label"><button class="stepper__btn" type="button" data-step="-1" aria-label="Уменьшить число гостей"><svg width="20" height="20" aria-hidden="true"><use href="#i-minus"/></svg></button><output class="stepper__value" data-guests aria-live="polite">2</output><input type="hidden" name="guests" value="2" data-guests-input><button class="stepper__btn" type="button" data-step="1" aria-label="Увеличить число гостей"><svg width="20" height="20" aria-hidden="true"><use href="#i-plus"/></svg></button><span class="stepper__hint" data-guests-hint>за столиком на двоих</span></div></div>
+        </div>
+        <div class="field field--check" data-field><input class="check" id="b-agree" name="agree" type="checkbox" required><label for="b-agree">Согласен(а) на обработку персональных данных</label><p class="field__error" data-error hidden></p></div>
+        <button class="btn btn--block" type="submit"><span>Забронировать столик</span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 8. Доставка и самовывоз -->
+  <section class="section delivery" id="delivery" aria-labelledby="delivery-title">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <p class="tag tag--coffee">Доставка и самовывоз</p>
+        <h2 class="title" id="delivery-title">Кофе <em class="scribble">с собой</em></h2>
+      </header>
+      <div class="delivery__grid">
+        <figure class="delivery__photo" data-reveal><img src="img/deliv-640.webp" srcset="img/deliv-640.webp 640w, img/deliv-1000.webp 1000w" sizes="(min-width: 900px) 40vw, 90vw" width="640" height="480" loading="lazy" alt="Пуровер: кофе заваривается в воронке с бумажным фильтром"></figure>
+        <article class="card" data-reveal data-reveal-delay="80"><svg class="card__icon" width="36" height="36" aria-hidden="true"><use href="#i-scooter"/></svg><h3 class="card__title">Курьером за 60–90 минут</h3><ul class="card__list"><li>В пределах Садового кольца и Китай-города</li><li>Бесплатно от 1 500 ₽, иначе 190 ₽</li><li>Напитки в термостаканах, выпечка тёплой</li><li>Зерно отправляем по России СДЭК за 2 дня</li></ul><p class="card__price"><strong>с 8:30 до 20:30</strong></p></article>
+        <article class="card" data-reveal data-reveal-delay="160"><svg class="card__icon" width="36" height="36" aria-hidden="true"><use href="#i-bag"/></svg><h3 class="card__title">Самовывоз со скидкой 10%</h3><ul class="card__list"><li>Закажите по телефону или в Telegram</li><li>Готовим за 7 минут, не нужно стоять в очереди</li><li>Скидка 10% на кофе и десерты</li><li>Подарим стикер и крафтовый пакет</li></ul><p class="card__price"><strong>Петровка, 18, стр. 2</strong></p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Отзывы -->
+  <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <header class="section__head" data-reveal>
+        <p class="tag">Отзывы</p>
+        <h2 class="title" id="reviews-title">Гости <em class="scribble">пишут</em></h2>
+      </header>
+      <ul class="notes-board">
+        <li class="note" data-reveal><div class="note__stars" role="img" aria-label="5 из 5"><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg></div><blockquote>«Лучший капучино в центре и честная выпечка. Забираю зерно Гуджи по субботам и жарю дома на ощупь: ни разу не было кислого».</blockquote><p class="note__author"><strong>Ксения Л.</strong> гость с 2021 года</p></li>
+        <li class="note" data-reveal data-reveal-delay="120"><div class="note__stars" role="img" aria-label="5 из 5"><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg></div><blockquote>«Работаю здесь два раза в неделю: розетки, тихо, Wi-Fi держит. Бариста помнят мой заказ. Яйца пашот — как в Лиссабоне».</blockquote><p class="note__author"><strong>Антон Р.</strong> разработчик</p></li>
+        <li class="note" data-reveal data-reveal-delay="240"><div class="note__stars" role="img" aria-label="5 из 5"><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg><svg width="16" height="16"><use href="#i-star"/></svg></div><blockquote>«Заказали доставку в офис на 12 человек: приехало за 70 минут, стаканы горячие, всё подписано. Теперь делаем это каждую пятницу».</blockquote><p class="note__author"><strong>Дарья В.</strong> офис-менеджер</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 10. Контакты -->
+  <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="container contacts__grid">
+      <div class="contacts__info" data-reveal>
+        <p class="tag tag--terra">Контакты</p>
+        <h2 class="title" id="contacts-title">Заходите <em class="scribble">в гости</em></h2>
+        <ul class="contacts__list">
+          <li><svg width="22" height="22" aria-hidden="true"><use href="#i-pin"/></svg><div><strong>Москва, Петровка, 18, стр. 2</strong><span>Вход со двора, у арки с вывеской «Зерно»</span></div></li>
+          <li><svg width="22" height="22" aria-hidden="true"><use href="#i-clock"/></svg><div><strong>Пн–Пт 8:00–21:00, Сб–Вс 9:00–22:00</strong><span>Завтраки до 16:00</span></div></li>
+          <li><svg width="22" height="22" aria-hidden="true"><use href="#i-phone"/></svg><div><a class="contacts__link" href="tel:+79000000000"><strong>+7 (900) 000-00-00</strong></a><span>Заказы, бронь и доставка</span></div></li>
+          <li><svg width="22" height="22" aria-hidden="true"><use href="#i-mail"/></svg><div><a class="contacts__link" href="mailto:hello@zerno.example.ru"><strong>hello@zerno.example.ru</strong></a><span>Для вопросов и банкетов</span></div></li>
+        </ul>
+        <a class="btn" href="https://yandex.ru/maps/?text=Москва%2C%20Петровка%2018" target="_blank" rel="noopener">Открыть в Яндекс Картах <svg width="20" height="20" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <figure class="map" data-reveal data-reveal-delay="120">
+        <svg class="map__svg" viewBox="0 0 640 520" role="img" aria-label="Схема проезда: кофейня «Зерно» на Петровке рядом с Петровскими воротами">
+          <rect width="640" height="520" fill="#EADFCF"/>
+          <g fill="#F3EDE4" stroke="#D6B88F" stroke-width="2"><rect x="30" y="30" width="150" height="100" rx="14"/><rect x="200" y="30" width="170" height="100" rx="14"/><rect x="390" y="30" width="110" height="100" rx="14"/><rect x="520" y="30" width="90" height="100" rx="14"/><rect x="30" y="170" width="150" height="120" rx="14"/><rect x="200" y="170" width="80" height="120" rx="14"/><rect x="390" y="170" width="220" height="120" rx="14"/><rect x="30" y="330" width="220" height="80" rx="14"/><rect x="270" y="330" width="110" height="80" rx="14"/><rect x="400" y="330" width="210" height="80" rx="14"/></g>
+          <g fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round"><path d="M0 150H640"/><path d="M0 310H640"/><path d="M190 0V520"/><path d="M380 0V520"/><path d="M0 450 640 450"/></g>
+          <path d="M60 310H300" stroke="#D9603B" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 10" fill="none"/>
+          <g font-family="Onest,sans-serif" font-size="13" fill="#5C4638" font-weight="600" letter-spacing=".06em"><text x="210" y="145">ПЕТРОВКА</text><text x="400" y="305">БОЛЬШОЙ КАРЕТНЫЙ</text></g>
+          <g transform="translate(60 310)"><circle r="17" fill="#3B2A20"/><text text-anchor="middle" y="6" font-family="Onest,sans-serif" font-weight="800" font-size="16" fill="#F3EDE4">М</text></g>
+          <text x="20" y="288" font-family="Onest,sans-serif" font-size="12" font-weight="700" fill="#3B2A20">Чеховская</text>
+          <g transform="translate(300 310)"><path d="M0 0c-24-26-32-36-32-52a32 32 0 0 1 64 0c0 16-8 26-32 52Z" fill="#D9603B" stroke="#3B2A20" stroke-width="3"/><circle cy="-52" r="12" fill="#F3EDE4"/></g>
+          <rect x="250" y="328" width="100" height="28" rx="14" fill="#3B2A20"/><text x="300" y="347" text-anchor="middle" font-family="Onest,sans-serif" font-size="13" font-weight="700" fill="#F3EDE4">Зерно</text>
+        </svg>
+        <figcaption class="map__cap">Схема носит иллюстративный характер</figcaption>
+      </figure>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a class="logo logo--light" href="#top" aria-label="Зерно — наверх"><svg class="logo__bean" width="30" height="30" aria-hidden="true"><use href="#i-bean"/></svg><span class="logo__word">Зерно</span></a>
+    <p class="footer__text">Петровка, 18, стр. 2 · Пн–Пт 8:00–21:00, Сб–Вс 9:00–22:00<br>+7 (900) 000-00-00</p>
+    <p class="footer__legal">Концепт-проект для портфолио. Кофейня, меню и отзывы вымышлены. Фото — Pexels.</p>
+  </div>
+</footer>
+
+<div class="modal" id="book-modal" role="dialog" aria-modal="true" aria-labelledby="book-modal-title" data-modal hidden>
+  <div class="modal__panel">
+    <button class="modal__close" type="button" data-modal-close aria-label="Закрыть окно"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <p class="tag tag--terra">Бронь</p>
+    <h2 class="modal__title" id="book-modal-title">Забронировать <em class="scribble">столик</em></h2>
+    <p class="modal__lead">Подтвердим бронь по телефону в течение 10 минут.</p>
+    <form class="form" data-form="thanks" novalidate>
+      <div class="field" data-field><label class="field__label" for="m-name">Ваше имя</label><input class="field__input" id="m-name" name="name" type="text" autocomplete="given-name" required data-validate="name" data-autofocus placeholder="Например, Марина"><p class="field__error" data-error hidden></p></div>
+      <div class="field" data-field><label class="field__label" for="m-phone">Телефон</label><input class="field__input" id="m-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required data-validate="phone" data-phone placeholder="+7 (___) ___-__-__"><p class="field__error" data-error hidden></p></div>
+      <div class="field" data-field><label class="field__label" for="m-date">Дата</label><input class="field__input" id="m-date" name="date" type="date" required data-validate="required" data-min-today><p class="field__error" data-error hidden></p></div>
+      <div class="field field--check" data-field><input class="check" id="m-agree" name="agree" type="checkbox" required><label for="m-agree">Согласен(а) на обработку персональных данных</label><p class="field__error" data-error hidden></p></div>
+      <button class="btn btn--block" type="submit"><span>Забронировать</span></button>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="order-modal" role="dialog" aria-modal="true" aria-labelledby="order-modal-title" data-modal hidden>
+  <div class="modal__panel">
+    <button class="modal__close" type="button" data-modal-close aria-label="Закрыть окно"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <p class="tag tag--coffee">Зерно с собой</p>
+    <h2 class="modal__title" id="order-modal-title">Заказать <em class="scribble">зерно</em></h2>
+    <p class="modal__lead" data-bean-summary>Выберите сорт, и мы подготовим пакет к вашему приходу.</p>
+    <form class="form" data-form="thanks" novalidate>
+      <input type="hidden" name="bean" value="" data-bean-input>
+      <div class="field" data-field><label class="field__label" for="o-name">Ваше имя</label><input class="field__input" id="o-name" name="name" type="text" autocomplete="given-name" required data-validate="name" data-autofocus placeholder="Например, Марина"><p class="field__error" data-error hidden></p></div>
+      <div class="field" data-field><label class="field__label" for="o-phone">Телефон</label><input class="field__input" id="o-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required data-validate="phone" data-phone placeholder="+7 (___) ___-__-__"><p class="field__error" data-error hidden></p></div>
+      <div class="field field--check" data-field><input class="check" id="o-agree" name="agree" type="checkbox" required><label for="o-agree">Согласен(а) на обработку персональных данных</label><p class="field__error" data-error hidden></p></div>
+      <button class="btn btn--block" type="submit"><span>Заказать</span></button>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="thanks" role="dialog" aria-modal="true" aria-labelledby="thanks-title" data-modal hidden>
+  <div class="modal__panel modal__panel--center">
+    <button class="modal__close" type="button" data-modal-close aria-label="Закрыть окно"><svg width="22" height="22" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <svg class="modal__bean" width="54" height="54" aria-hidden="true"><use href="#i-bean"/></svg>
+    <h2 class="modal__title" id="thanks-title">Спасибо, мы свяжемся с вами</h2>
+    <p class="modal__lead">Администратор позвонит в течение 10 минут и подтвердит заявку.</p>
+    <button class="btn" type="button" data-modal-close>Отлично</button>
+  </div>
+</div>
+
+<script src="js/core.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

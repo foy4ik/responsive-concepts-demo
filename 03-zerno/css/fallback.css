@@ -1,0 +1,4 @@
+/* Резервные шрифты с подогнанными метриками: пока грузится веб-шрифт, текст занимает те же места — нет сдвига вёрстки (CLS) */
+@font-face{font-family:'Lora Fallback';font-style:normal;font-weight:400 700;src:local('Georgia');size-adjust:93.51%;ascent-override:107.58%;descent-override:29.3%;line-gap-override:0%}
+@font-face{font-family:'Lora Fallback';font-style:italic;font-weight:400 700;src:local('Georgia');size-adjust:100.95%;ascent-override:99.66%;descent-override:27.14%;line-gap-override:0%}
+@font-face{font-family:'Onest Fallback';font-style:normal;font-weight:100 900;src:local('Arial');size-adjust:103.63%;ascent-override:93.6%;descent-override:29.43%;line-gap-override:0%}

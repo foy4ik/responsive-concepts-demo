@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Концепты адаптивной вёрстки — 5 демо-проектов</title>
+<meta name="description" content="Пять концептов адаптивной вёрстки на чистых HTML, CSS и JS: лендинги, калькулятор, квиз, каталог и корзина. Все бренды вымышлены.">
+<style>
+:root{--bg:#f6f4ef;--ink:#17151c;--mut:#5a5663}
+@media(prefers-color-scheme:dark){:root{--bg:#17151c;--ink:#f3f0ea;--mut:#b4afbf}}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 1rem/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:clamp(1.25rem,5vw,4rem)}
+main{max-width:1200px;margin:auto}
+h1{font-size:clamp(2rem,1rem+4vw,3.6rem);line-height:1.05;letter-spacing:-.02em;margin-bottom:.8rem}
+.lead{color:var(--mut);max-width:44em;margin-bottom:2.5rem;font-size:1.1rem}
+ul{list-style:none;padding:0;display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr))}
+a.card{display:block;text-decoration:none;color:inherit;border-radius:16px;overflow:hidden;background:rgba(127,127,127,.1);transition:transform .3s}
+a.card:hover{transform:translateY(-4px)}
+a.card:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}
+.card div{padding:1rem 1.25rem 1.25rem}
+.card b{display:block;font-size:1.2rem}.card span{color:var(--mut);font-size:.92rem}
+footer{margin-top:3rem;color:var(--mut);font-size:.88rem}
+</style>
+</head>
+<body>
+<main>
+<h1>5 концептов адаптивной вёрстки</h1>
+<p class="lead">Демо-проекты для портфолио: чистые HTML, CSS и JavaScript без фреймворков. Адаптив от 320 до 2560 px, Lighthouse выше 90 по всем категориям. Бренды, контакты, цены и отзывы вымышлены.</p>
+<ul>
+<li><a class="card" href="01-lavanda/"><img src="covers/01.jpg" width="1320" height="880" alt="Лаванда: ноутбук и телефон с первым экраном" loading="lazy"><div><b>Лаванда</b><span>Студия красоты · лендинг, запись, лайтбокс</span></div></a></li>
+<li><a class="card" href="02-severny-dom/"><img src="covers/02.jpg" width="1320" height="880" alt="Северный дом: ноутбук и телефон с первым экраном" loading="lazy"><div><b>Северный дом</b><span>Строительство домов · калькулятор, квиз, каталог</span></div></a></li>
+<li><a class="card" href="03-zerno/"><img src="covers/03.jpg" width="1320" height="880" alt="Зерно: ноутбук и телефон с первым экраном" loading="lazy"><div><b>Зерно</b><span>Кофейня и обжарка · меню, бронь столика</span></div></a></li>
+<li><a class="card" href="04-speakly/"><img src="covers/04.jpg" width="1320" height="880" alt="Speakly: ноутбук и телефон с первым экраном" loading="lazy"><div><b>Speakly</b><span>Онлайн-школа английского · тест уровня, тарифы</span></div></a></li>
+<li><a class="card" href="05-glina/"><img src="covers/05.jpg" width="1320" height="880" alt="Глина: ноутбук и телефон с первым экраном" loading="lazy"><div><b>Глина</b><span>Магазин керамики · каталог, фильтры, корзина</span></div></a></li>
+</ul>
+<footer>Концепт-проекты для портфолио, выполненные без заказчика. Фото — Pexels.</footer>
+</main>
+</body>
+</html>

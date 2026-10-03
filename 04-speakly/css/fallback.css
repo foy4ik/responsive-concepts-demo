@@ -1,0 +1,3 @@
+/* Резервные шрифты с подогнанными метриками: пока грузится веб-шрифт, текст занимает те же места — нет сдвига вёрстки (CLS) */
+@font-face{font-family:'Unbounded Fallback';font-style:normal;font-weight:200 900;src:local('Arial');size-adjust:134%;ascent-override:74%;descent-override:18.2%;line-gap-override:0%}
+@font-face{font-family:'Manrope Fallback';font-style:normal;font-weight:200 800;src:local('Arial');size-adjust:102.35%;ascent-override:104.15%;descent-override:29.31%;line-gap-override:0%}

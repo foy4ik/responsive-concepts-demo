@@ -1,0 +1,3 @@
+/* Резервные шрифты с подогнанными метриками: пока грузится веб-шрифт, текст занимает те же места — нет сдвига вёрстки (CLS) */
+@font-face{font-family:'Prata Fallback';font-style:normal;font-weight:400;src:local('Georgia');size-adjust:108.12%;ascent-override:91.84%;descent-override:33.48%;line-gap-override:0%}
+@font-face{font-family:'Inter Fallback';font-style:normal;font-weight:100 900;src:local('Arial');size-adjust:106.41%;ascent-override:91.04%;descent-override:22.67%;line-gap-override:0%}
